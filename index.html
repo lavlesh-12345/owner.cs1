@@ -1,0 +1,417 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TechNova Computer Academy</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+body{
+scroll-behavior:smooth;
+}
+
+.section-divider{
+height:4px;
+background:linear-gradient(to right,#3b82f6,#9333ea,#ec4899);
+}
+
+.course-card:hover{
+transform:translateY(-8px);
+transition:0.4s;
+}
+
+</style>
+
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+<!-- NAVBAR -->
+
+<nav class="bg-white shadow fixed w-full z-50">
+
+<div class="max-w-7xl mx-auto px-4">
+
+<div class="flex justify-between items-center h-16">
+
+<div class="text-2xl font-bold text-blue-600">
+TechNova Academy
+</div>
+
+<div class="hidden md:flex gap-8 font-medium">
+
+<a href="#home">Home</a>
+<a href="#courses">Courses</a>
+<a href="#admission">Admission</a>
+<a href="#certificate">Certificate</a>
+<a href="#contact">Contact</a>
+
+</div>
+
+<button id="menuBtn" class="md:hidden text-2xl">
+<i class="fa-solid fa-bars"></i>
+</button>
+
+</div>
+
+</div>
+
+<div id="mobileMenu" class="hidden bg-white border-t md:hidden">
+
+<a class="block p-4 border-b" href="#home">Home</a>
+<a class="block p-4 border-b" href="#courses">Courses</a>
+<a class="block p-4 border-b" href="#admission">Admission</a>
+<a class="block p-4 border-b" href="#certificate">Certificate</a>
+<a class="block p-4" href="#contact">Contact</a>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section id="home"
+class="pt-32 pb-32 text-center text-white bg-cover bg-center"
+style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c')">
+
+<div class="bg-black/70 py-20">
+
+<h1 class="text-5xl font-bold mb-6">
+TechNova Computer Academy
+</h1>
+
+<p class="max-w-3xl mx-auto text-lg leading-relaxed">
+
+TechNova Computer Academy is a modern training institute dedicated to
+providing high quality technical education. Our academy focuses on
+practical learning, real world projects, and professional skill
+development.
+
+Students learn programming, web development, data science,
+and many digital skills that help them build successful careers
+in the IT industry.
+
+</p>
+
+<a href="#courses"
+class="inline-block mt-8 bg-blue-600 px-8 py-3 rounded-xl hover:bg-blue-700">
+
+Explore Courses
+
+</a>
+
+</div>
+
+</section>
+
+<div class="section-divider"></div>
+
+<!-- COURSES -->
+
+<section id="courses" class="py-20">
+
+<div class="max-w-7xl mx-auto px-4">
+
+<h2 class="text-4xl font-bold text-center mb-16">
+Our Professional Courses
+</h2>
+
+<div class="grid md:grid-cols-3 gap-10">
+
+<!-- COURSE -->
+
+<div class="course-card bg-white border rounded-2xl shadow-xl overflow-hidden">
+
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+class="w-full h-52 object-cover">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-600 mb-4">
+Full Stack Web Development
+</h3>
+
+<p class="text-gray-600 leading-relaxed mb-4">
+
+This course teaches students how to build complete websites
+and web applications from scratch. Students learn frontend
+technologies like HTML, CSS, JavaScript and backend
+technologies like NodeJS and databases.
+
+Students will create real world projects including
+business websites, e-commerce stores and interactive
+web applications.
+
+This course is perfect for beginners and also for
+students who want to become professional web developers.
+
+</p>
+
+<div class="flex justify-between">
+
+<span class="font-bold text-green-600 text-xl">
+₹15000
+</span>
+
+<button class="bg-blue-600 text-white px-6 py-2 rounded-lg">
+Enroll
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- COURSE -->
+
+<div class="course-card bg-white border rounded-2xl shadow-xl overflow-hidden">
+
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+class="w-full h-52 object-cover">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-600 mb-4">
+Data Science
+</h3>
+
+<p class="text-gray-600 leading-relaxed mb-4">
+
+The Data Science course focuses on analyzing data,
+creating predictive models and using machine learning.
+
+Students learn Python programming, data analysis,
+visualization tools and machine learning algorithms.
+
+Real datasets are used for projects such as
+business analytics, financial prediction,
+and customer behavior analysis.
+
+</p>
+
+<div class="flex justify-between">
+
+<span class="font-bold text-green-600 text-xl">
+₹18000
+</span>
+
+<button class="bg-blue-600 text-white px-6 py-2 rounded-lg">
+Enroll
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- COURSE -->
+
+<div class="course-card bg-white border rounded-2xl shadow-xl overflow-hidden">
+
+<img src="https://images.unsplash.com/photo-1561070791-2526d30994b5"
+class="w-full h-52 object-cover">
+
+<div class="p-6">
+
+<h3 class="text-2xl font-bold text-blue-600 mb-4">
+UI UX Design
+</h3>
+
+<p class="text-gray-600 leading-relaxed mb-4">
+
+UI UX design focuses on creating beautiful
+and user friendly digital experiences.
+
+Students learn design principles,
+wireframing, prototyping and design tools
+like Figma and Adobe XD.
+
+This course helps students become
+professional UI designers.
+
+</p>
+
+<div class="flex justify-between">
+
+<span class="font-bold text-green-600 text-xl">
+₹12000
+</span>
+
+<button class="bg-blue-600 text-white px-6 py-2 rounded-lg">
+Enroll
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ADMISSION -->
+
+<section id="admission" class="py-20 bg-gray-100">
+
+<div class="max-w-xl mx-auto bg-white p-8 rounded-2xl shadow-xl border">
+
+<h2 class="text-3xl font-bold text-center mb-8">
+Student Admission Form
+</h2>
+
+<form onsubmit="submitForm(event)">
+
+<input required placeholder="Student Name"
+class="w-full border p-3 mb-4 rounded">
+
+<input required placeholder="Mobile Number"
+class="w-full border p-3 mb-4 rounded">
+
+<select class="w-full border p-3 mb-4 rounded">
+
+<option>Web Development</option>
+<option>Data Science</option>
+<option>UI UX Design</option>
+
+</select>
+
+<button
+class="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700">
+
+Submit Admission
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<div class="section-divider"></div>
+
+<!-- CERTIFICATE -->
+
+<section id="certificate" class="py-20 text-center">
+
+<h2 class="text-4xl font-bold mb-8">
+Certificate Generator
+</h2>
+
+<input id="nameInput"
+placeholder="Enter Student Name"
+class="border p-3 rounded w-80">
+
+<button onclick="generateCertificate()"
+class="bg-blue-600 text-white px-6 py-3 rounded ml-3">
+
+Generate
+
+</button>
+
+<div id="certificateBox"
+class="hidden mt-10 border-4 border-blue-600 p-10 max-w-xl mx-auto">
+
+<h2 class="text-3xl font-bold mb-4">
+TechNova Certificate
+</h2>
+
+<p>This certifies that</p>
+
+<h3 id="certName"
+class="text-2xl font-bold my-4"></h3>
+
+<p>has successfully completed the course.</p>
+
+</div>
+
+</section>
+
+<div class="section-divider"></div>
+
+<!-- CONTACT -->
+
+<section id="contact"
+class="py-20 bg-blue-600 text-white text-center">
+
+<h2 class="text-4xl font-bold mb-6">
+Contact Us
+</h2>
+
+<p class="mb-8">
+Our advisors will guide you in selecting the right course.
+</p>
+
+</section>
+
+<!-- WHATSAPP -->
+
+<a href="https://wa.me/919999999999"
+class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full text-xl">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+<!-- FOOTER -->
+
+<footer class="bg-gray-900 text-white text-center py-6">
+
+<p>
+© 2026 TechNova Computer Academy
+</p>
+
+</footer>
+
+<script>
+
+const menuBtn=document.getElementById("menuBtn")
+const mobileMenu=document.getElementById("mobileMenu")
+
+menuBtn.onclick=()=>{
+mobileMenu.classList.toggle("hidden")
+}
+
+function submitForm(e){
+
+e.preventDefault()
+alert("Admission Submitted Successfully")
+
+}
+
+function generateCertificate(){
+
+let name=document.getElementById("nameInput").value
+
+if(name===""){
+alert("Enter Name")
+return
+}
+
+document.getElementById("certName").innerText=name
+document.getElementById("certificateBox").classList.remove("hidden")
+
+}
+
+</script>
+
+</body>
+</html>
+```
